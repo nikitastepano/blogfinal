@@ -1,0 +1,79 @@
+.post {
+    display: flex;
+    justify-content: center;
+    &__content {
+        width: 950px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        background-color: white;
+        box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.15);
+    }
+    &__top {
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 15px 0 15px;
+    }
+    &__left {
+        &__container {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            a {
+                margin: 0;
+                color: rgb(24, 144, 255);
+                font-size: 20px;
+                font-weight: 400;
+                text-decoration: none;
+            }
+        }
+    }
+    &__right {
+        align-items: center;
+        display: flex;
+        gap: 10px;
+        &__name {
+            font-size: 18px;
+        }
+        &__date {
+            color: rgba(0, 0, 0, 0.5);
+            font-size: 12px;
+        }
+        img {
+            height: 45px;
+            width: 45px;
+            border-radius: 50%;
+        }
+    }
+    &__discript {
+        padding-top: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 12px;
+        line-height: 22px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__body {
+        padding: 15px;
+    }
+}
+
+.tag {
+    padding: 2px 6px 2px 6px;
+    font-size: 12px;
+    list-style: none;
+    border: 1px solid;
+    border-radius: 4px;
+}
+
+.delete {
+    border-color: red;
+    color: red;
+    margin-right: 10px;
+}
+
+.edit {
+    border-color: green;
+    color: green;
+}

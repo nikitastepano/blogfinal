@@ -1,0 +1,14 @@
+.header {
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 80px;
+    align-items: center;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    &__buttons {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+}
